@@ -85,7 +85,7 @@ App description goes here.
 
 Main contributors:
 
--
--
+- Contributor #1
+- Contributor #2
 
 (c) 2016 App Author
