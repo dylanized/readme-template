@@ -124,6 +124,17 @@ App description goes here.
 - user: 
 - pass: 
 
+## Tests
+
+Tests are in the `/tests` folder, arranged into these groups:
+
+- 100's - setup
+- 200's - public features
+- 300's - admin features
+- 900's - scripts
+
+To execute active tests, run `npm test`. To disable a test file, prefix it with an underscore.
+
 ## Credits
 
 Main contributors:
