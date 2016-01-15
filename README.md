@@ -23,13 +23,35 @@ App description goes here.
 
 #### Endpoint #1
 
-#### Endpoint #2
+**Details**
+
+- Path: /link
+- Request type: POST
+- Content: form-encoded data
+
+**Fields**
+
+- field #1
+- field #2
+
+**Result**
+
+- Content-Type: application/json
+- Content:
+	- prop #1
+	- prop #2
 	
 ## Setup	
 	
 #### App Dependencies
 
+- Dep #1
+- Dep #2
+
 #### Dev Dependencies
+
+- Dep #1
+- Dep #2
 
 #### Dev Install
 
@@ -44,6 +66,9 @@ App description goes here.
 
 #### Useful Dev Links
 
+- http://a.com
+- http://b.com
+
 #### Staging Install
 
 1.
@@ -54,9 +79,27 @@ App description goes here.
 
 #### Production Install
 
+1.
+2.
+3.
+
 ## Scripts
 
+#### Script #1
+
+#### Script #2
+
 ## Database Actions
+
+#### Get Access
+
+#### Backup
+
+#### Restore
+
+#### Import
+
+#### Create User
 
 ## Database Details
 
