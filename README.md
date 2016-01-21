@@ -2,11 +2,32 @@
 
 App description goes here.
 
-#### Links
+## Quick Info
 
-- Production:
-- Staging:
-- Dev:
+#### Dev
+
+- URL: 
+- DB: 
+- Log: 
+
+#### Staging
+
+- URL: 
+- DB: 
+- Log: 
+- Deploy:
+
+#### Production
+
+- URL: 
+- DB: 
+- Log:
+- Deploy:
+
+## Architecture Notes
+
+-
+-
 
 #### Deployment
 
