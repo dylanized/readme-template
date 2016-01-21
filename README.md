@@ -26,7 +26,14 @@ App description goes here.
 
 ## Scripts
 
+#### NPM Scripts
+
 - Test Active: `npm test`
+
+#### Other Scripts
+
+- Script #1
+- Script #2
 
 ## Architecture Notes
 
