@@ -24,14 +24,14 @@ App description goes here.
 - Log:
 - Deploy:
 
+## Scripts
+
+- Test Active: `npm test`
+
 ## Architecture Notes
 
 -
 -
-
-## NPM Scripts
-
-- Test Active: `npm test`
 
 ## User Roles
 
