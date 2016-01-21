@@ -8,7 +8,8 @@ App description goes here.
 
 - URL: 
 - DB: 
-- Log: 
+- Log:
+- Test: `npm test` 
 
 #### Staging
 
@@ -28,11 +29,6 @@ App description goes here.
 
 -
 -
-
-#### Deployment
-
-- Staging:
-- Production:
 
 ## User Roles
 
@@ -122,39 +118,9 @@ App description goes here.
 
 #### Create User
 
-## Database Details
-
-#### Dev
-
-- url: localhost:3306
-- name:
-- user: root
-- pass:
-
-#### Staging
-
-- url: ``
-- name: 
-- user: 
-- pass: 
-
-#### Production
-
-- url: ``
-- name: 
-- user: 
-- pass: 
-
 ## Tests
 
-Tests are in the `/tests` folder, arranged into these groups:
-
-- 100's - setup
-- 200's - public features
-- 300's - admin features
-- 900's - scripts
-
-To execute active tests, run `npm test`. To disable a test file, prefix it with an underscore.
+To execute active tests, run `npm test`.
 
 ## Credits
 
