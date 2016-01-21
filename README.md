@@ -24,21 +24,34 @@ App description goes here.
 - Log:
 - Deploy:
 
-## Scripts
+## Tasks
 
 #### NPM Scripts
 
 - Test Active: `npm test`
+- Test All: `npm run mocha`
 
-#### Other Scripts
+#### Cron Jobs
 
-- Script #1
-- Script #2
+- Cron #1
+- Cron #2
+
+#### Build System
+
+- step #1
+- step #2
 
 ## Architecture Notes
 
--
--
+#### Section #1
+
+- note #1
+- note #2
+
+#### Section #2
+
+- note #1
+- note #2
 
 ## User Roles
 
@@ -72,13 +85,13 @@ App description goes here.
 	
 #### App Dependencies
 
-- Dep #1
-- Dep #2
+- dep #1
+- dep #2
 
 #### Dev Dependencies
 
-- Dep #1
-- Dep #2
+- dep #1
+- dep #2
 
 #### Dev Install
 
