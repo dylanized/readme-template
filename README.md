@@ -8,8 +8,7 @@ App description goes here.
 
 - URL: 
 - DB: 
-- Log:
-- Test: `npm test` 
+- Log: 
 
 #### Staging
 
@@ -29,6 +28,10 @@ App description goes here.
 
 -
 -
+
+## NPM Scripts
+
+- Test Active: `npm test`
 
 ## User Roles
 
@@ -99,12 +102,6 @@ App description goes here.
 1.
 2.
 3.
-
-## Scripts
-
-#### Script #1
-
-#### Script #2
 
 ## Database Actions
 
