@@ -28,8 +28,6 @@ App description goes here.
 
 #### NPM Scripts
 
-## Npm Scripts
-
 - `npm install`
   - Installs modules
 - `npm start`
