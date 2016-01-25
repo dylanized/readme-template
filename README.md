@@ -28,13 +28,44 @@ App description goes here.
 
 #### NPM Scripts
 
-- Test Active: `npm test`
-- Test All: `npm run mocha`
+## Npm Scripts
+
+- `npm install`
+  - Installs modules
+- `npm start`
+  - Starts server and master process
+- `npm run seed`
+  - Destroys, creates, and seeds development database
+- `npm run app`
+  - Builds app
+  - Runs a watch task
+- `npm run dev`
+  - Run seed
+  - Builds app
+  - Runs a watch task
+- `npm test`
+  - Runs active Mocha tests
+  - Fails after first test failure 
+- `npm run mocha`
+  - Runs all Mocha tests
+- `npm run import <file>`
+  - Imports `<file>` to database
+- `npm run seedDB`
+  - Imports seed DB file to database
+- `npm run dropDB`
+  - Drops database
+- `npm run reloadDB`
+  - Executes `npm run dropDB && npm run seedDB`
 
 #### Cron Jobs
 
-- Cron #1
-- Cron #2
+**Cron Job #1**
+
+- details
+  
+**Cron Job #2**
+
+- details
 
 #### Build System
 
