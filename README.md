@@ -174,7 +174,7 @@ App description goes here.
 ## Tests
 
 | Name         | Details |
-| ------------ | --------|
+| ------------ | ------- |
 | Test File #1 | details |
 | Test File #2 | details |
 
