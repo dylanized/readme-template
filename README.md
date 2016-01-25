@@ -26,7 +26,7 @@ App description goes here.
 
 ## Tasks
 
-#### NPM Scripts
+#### Installing & Running
 
 - `npm install`
   - Installs modules
@@ -41,12 +41,23 @@ App description goes here.
   - Run seed
   - Builds app
   - Runs a watch task
+
+#### Testing  
+  
 - `npm test`
-  - Runs active Mocha tests
-  - Fails after first test failure 
+  - Runs active Mocha test files
+  - Fails after first test failure
 - `npm run mocha`
-  - Runs all Mocha tests
-- `npm run import <file>`
+  - Runs all Mocha test files
+  - Does not stop after failures
+- `npm run mocha -- <file>`
+  - Run single test file (or subset of test files)
+- `npm run mocha -- <file> --bail`
+  - Run single test file, stop after first failure
+  
+#### Database Tasks
+  
+- `npm run importDB <file>`
   - Imports `<file>` to database
 - `npm run seedDB`
   - Imports seed DB file to database
@@ -54,6 +65,12 @@ App description goes here.
   - Drops database
 - `npm run reloadDB`
   - Executes `npm run dropDB && npm run seedDB`
+- `npm run createDB`
+  - Creates database
+- `npm run deleteDB`
+  - Deletes database
+- `npm run exportDB <file>`
+  - Exports database to `<file>`
 
 #### Cron Jobs
 
@@ -157,15 +174,13 @@ App description goes here.
 2.
 3.
 
-## Database Actions
+## Database Details
+
+For basic tasks, Tasks section above.
+
+Other database actions:
 
 #### Get Access
-
-#### Backup
-
-#### Restore
-
-#### Import
 
 #### Create User
 
@@ -176,7 +191,7 @@ App description goes here.
 | Test File #1 | details |
 | Test File #2 | details |
 
-To execute active tests, run `npm test`.
+To run tests, see Tasks section above. 
 
 To deactivate tests, prefix the filename with an underscore.
 
