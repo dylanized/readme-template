@@ -61,7 +61,12 @@ App description goes here.
 
 ## API Endpoints
 
-#### Endpoint #1
+#### Endpoint Group #1
+
+| Name  | Path |
+| ------------- | ------------- |
+| Endpoint #1 | `/path/to/endpoint` |
+| Endpoint #2 | `/path/to/endpoint` |
 
 **Details**
 
