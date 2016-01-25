@@ -94,8 +94,8 @@ App description goes here.
 
 #### Endpoint Group #1
 
-| Name  | Path |
-| ------------- | ------------- |
+| Name        | Path                |
+| ----------- | ------------------- |
 | Endpoint #1 | `/path/to/endpoint` |
 | Endpoint #2 | `/path/to/endpoint` |
 
@@ -173,7 +173,14 @@ App description goes here.
 
 ## Tests
 
+| Name         | Details |
+| ------------ | --------|
+| Test File #1 | details |
+| Test File #2 | details |
+
 To execute active tests, run `npm test`.
+
+To deactivate tests, prefix the filename with an underscore.
 
 ## Credits
 
